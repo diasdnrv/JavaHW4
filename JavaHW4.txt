@@ -1,0 +1,31 @@
+   public class Main {
+    public static void main(String[] args) {
+
+        String firstWord = "Warm";
+        String secondWord = "Sand";
+
+        System.out.println(firstWord.substring(0,2) + secondWord.substring(2,4));
+
+        System.out.println("___________________________________________________");
+
+        int num1 = 6;
+        int num2 = 4;
+        int sumResult = (num1 + num2);
+        System.out.println("The result of addition: " + sumResult);
+
+        int num3 = 16;
+        int num4 = 6;
+        int subResult = (num3 - num4);
+        System.out.println("The result of subtraction: " + subResult);
+
+        int n1 = 2;
+        int n2 = 5;
+        int multiResult = (n1 * n2);
+        System.out.println("The result of multiplication: " + multiResult);
+
+        int n3 = 20;
+        int n4 = 2;
+        int divResult = (n3 / n4);
+        System.out.println("The result of division: " + divResult);
+    }
+}
